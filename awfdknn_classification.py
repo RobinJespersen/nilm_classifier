@@ -114,9 +114,7 @@ class AggregatedWfdknnClassifier(ClassifierMixin, BaseEstimator):
 
         Parameters
         ----------
-        X : array-like of shape (n_queries, n_features), \
-                or (n_queries, n_indexed) if metric == 'precomputed'
-            Test samples.
+        X : array-like of shape (n_queries, n_features)
 
         Returns
         -------
